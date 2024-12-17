@@ -1,0 +1,1 @@
+i want a layout with a full width header and a full width footer. The layout should also contain a two coloumn section, 50-50 width. All the sections must be individual sections must be  background colors.
