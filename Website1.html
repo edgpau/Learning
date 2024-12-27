@@ -3,31 +3,59 @@
 <header>
     <style>
         .hello {
-            background-color:palegoldenrod;
+            background-color: palegoldenrod;
             font-size: 60px;
+            width: 100%;
             font-style: italic;
 
-        }   .water {
-            background-color:aquamarine;
-            font-size: 36px;
+        }
+
+        .water {
+            background-color: aquamarine;
+            font-size: 30px;
             font-style: italic;
         }
+
+        .column {
+            flex: 1;
+            padding: 15px;
+            width: fit-content;
+            border: 1px solid #110101;
+        }
+
+        .container {
+            width: 100%;
+            margin: auto;
+            height: 300;
+            display: flex;
+        }
     </style>
-    <div class="hello"> 
+    <div class="hello">
         Hello world. how are you doing?
         how is life going for you
     </div>
 
 </header>
+
 <body>
     <div class="water">
-        This is the body. 
-    </div>
-   
+        <div class="container">
+            <div class="column">
+                <h2>Column 1</h2>
+                <p>This is the content of column 1.</p>   
+            </div>
+            <div class="column">
+                <h2>Column 2</h2>
+                <p>This is the content of column 2.</p>
+            </div>
+        </div>
+</div>
+
+
 </body>
 <footer>
     <div class="hello">
-        This is the footer. 
+        This is the footer.
     </div>
 </footer>
 
