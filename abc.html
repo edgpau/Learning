@@ -1,0 +1,34 @@
+Here is a simple HTML program to create a two-column layout:
+
+```
+<!DOCTYPE html>
+<html>
+<head>
+ <title>Two Column Layout</title>
+ <style>
+  .container {
+   width: 80%;
+   margin: auto;
+   display: flex;
+  }
+  
+  .column {
+   flex: 1;
+   padding: 20px;
+   border: 1px solid #ccc;
+  }
+ </style>
+</head>
+<body>
+ <div class="container">
+  <div class="column">
+   <h2>Column 1</h2>
+   <p>This is the content of column 1.</p>
+  </div>
+  <div class="column">
+   <h2>Column 2</h2>
+   <p>This is the content of column 2.</p>
+  </div>
+ </div>
+</body>
+</html>

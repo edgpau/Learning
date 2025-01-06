@@ -1,0 +1,26 @@
+<div id="login-container">
+  <div class="profile-img"></div>
+  <h1>
+    Edgar Fernandez
+    <link rel="stylesheet" href="Website 2.css
+">
+  </h1>
+  <div class="description">
+    Edgar is a front end web developer in Toronto. He has worked in this field for a year now. Check out his projects in the links below. He is available for hire as well.
+  </div>
+  <div class="social">
+    <a>GitHub</a>
+    <a>LinkedIn</a>
+  </div>
+  <button>Hire Me</button>
+  <footer>
+    <div class="likes">
+      <p><i class='fa fa-heart'></i></p>
+      <p>1.5K</p>
+    </div>
+    <div class="projects">
+      <p>Projects</p>
+      <p>154</p>
+    </div>
+  </footer>
+</div>
